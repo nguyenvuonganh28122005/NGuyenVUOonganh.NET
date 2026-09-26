@@ -1,0 +1,168 @@
+@model IEnumerable<NVA_2410900004_Exam.Models.NguyenVuongAnhStudent>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+
+    .custom-table-container {
+        width: 100%;
+        overflow-x: visible;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        background-color: #ffffff;
+        margin-top: 10px;
+    }
+
+    .table {
+        width: 100%;
+        margin-bottom: 0;
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
+
+        .table thead tr {
+            background-color: #34495e;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .table th, .table td {
+            padding: 10px 8px;
+            font-size: 0.85rem;
+            border-bottom: 1px solid #eef2f5;
+            color: #4a5568;
+            vertical-align: middle;
+            word-wrap: break-word;
+            white-space: normal;
+        }
+
+        .table th {
+            font-weight: 600;
+        }
+        .table tbody tr:nth-of-type(even) {
+            background-color: #f8fafc;
+        }
+
+        .table tbody tr:hover {
+            background-color: #edf2f7;
+        }
+
+    .page-title {
+        color: #2c3e50;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+        border-bottom: 3px solid #3498db;
+        padding-bottom: 5px;
+        display: inline-block;
+    }
+
+    .btn-create {
+        display: inline-block;
+        background-color: #27ae60;
+        color: #ffffff !important;
+        padding: 8px 16px;
+        border-radius: 5px;
+        text-decoration: none !important;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    .action-links {
+        text-align: center;
+    }
+
+    .btn-action {
+        text-decoration: none !important;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        display: inline-block;
+        margin: 2px 0;
+    }
+
+    .btn-action-edit {
+        color: #2b6cb0;
+        background-color: #ebf8ff;
+        border: 1px solid #bee3f8;
+    }
+
+    .btn-action-details {
+        color: #b7791f;
+        background-color: #fefcbf;
+        border: 1px solid #faf089;
+    }
+
+    .btn-action-delete {
+        color: #c53030;
+        background-color: #fff5f5;
+        border: 1px solid #fed7d7;
+    }
+</style>
+
+<h1 class="page-title">Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn-create">+ Create New</a>
+</p>
+
+<div class="custom-table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="width: 18%;">
+                    @Html.DisplayNameFor(model => model.NguyenVuongAnhName)
+                </th>
+                <th style="width: 8%;">
+                    @Html.DisplayNameFor(model => model.NguyenVuongAnhGender)
+                </th>
+                <th style="width: 14%;">
+                    @Html.DisplayNameFor(model => model.NguyenVuongAnhBirthDay)
+                </th>
+                <th style="width: 22%;">
+                    @Html.DisplayNameFor(model => model.NguyenVuongAnhEmail)
+                </th>
+                <th style="width: 13%;">
+                    @Html.DisplayNameFor(model => model.NguyenVuongAnhPhone)
+                </th>
+                <th style="width: 8%;">
+                    @Html.DisplayNameFor(model => model.NguyenVuongAnhActive)
+                </th>
+                <th style="width: 17%; text-align: center;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(model => item.NguyenVuongAnhName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.NguyenVuongAnhGender)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.NguyenVuongAnhBirthDay)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.NguyenVuongAnhEmail)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.NguyenVuongAnhPhone)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.NguyenVuongAnhActive)
+                    </td>
+                    <td class="action-links">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn-action btn-action-edit">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn-action btn-action-details">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn-action btn-action-delete">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

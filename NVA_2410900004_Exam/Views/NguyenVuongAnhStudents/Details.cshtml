@@ -1,0 +1,118 @@
+@model NVA_2410900004_Exam.Models.NguyenVuongAnhStudent
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    .details-card {
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        max-width: 650px;
+        margin: 20px 0;
+        border-left: 5px solid #d69e2e;
+    }
+
+    .page-title {
+        color: #2c3e50;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .detail-row {
+        display: flex;
+        padding: 10px 0;
+        border-bottom: 1px solid #eef2f5;
+    }
+
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+
+    .detail-label {
+        width: 35%;
+        font-weight: 600;
+        color: #4a5568;
+    }
+
+    .detail-value {
+        width: 65%;
+        color: #2d3748;
+    }
+
+    .btn-edit-action {
+        background-color: #3182ce;
+        color: #ffffff !important;
+        padding: 8px 18px;
+        border-radius: 6px;
+        text-decoration: none !important;
+        font-weight: 500;
+        display: inline-block;
+        transition: background-color 0.2s ease;
+    }
+
+        .btn-edit-action:hover {
+            background-color: #2b6cb0;
+        }
+
+    .btn-back {
+        display: inline-block;
+        color: #4a5568;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 8px 14px;
+        border: 1px solid #cbd5e0;
+        border-radius: 6px;
+        margin-left: 10px;
+        transition: all 0.2s ease;
+    }
+
+        .btn-back:hover {
+            background-color: #edf2f7;
+            color: #2d3748;
+        }
+</style>
+
+<h1 class="page-title">Details</h1>
+
+<div class="details-card">
+    <h4>NguyenVuongAnhStudent</h4>
+    <hr />
+
+    <div class="detail-row">
+        <div class="detail-label">@Html.DisplayNameFor(model => model.NguyenVuongAnhName)</div>
+        <div class="detail-value">@Html.DisplayFor(model => model.NguyenVuongAnhName)</div>
+    </div>
+
+    <div class="detail-row">
+        <div class="detail-label">@Html.DisplayNameFor(model => model.NguyenVuongAnhGender)</div>
+        <div class="detail-value">@Html.DisplayFor(model => model.NguyenVuongAnhGender)</div>
+    </div>
+
+    <div class="detail-row">
+        <div class="detail-label">@Html.DisplayNameFor(model => model.NguyenVuongAnhBirthDay)</div>
+        <div class="detail-value">@Html.DisplayFor(model => model.NguyenVuongAnhBirthDay)</div>
+    </div>
+
+    <div class="detail-row">
+        <div class="detail-label">@Html.DisplayNameFor(model => model.NguyenVuongAnhEmail)</div>
+        <div class="detail-value">@Html.DisplayFor(model => model.NguyenVuongAnhEmail)</div>
+    </div>
+
+    <div class="detail-row">
+        <div class="detail-label">@Html.DisplayNameFor(model => model.NguyenVuongAnhPhone)</div>
+        <div class="detail-value">@Html.DisplayFor(model => model.NguyenVuongAnhPhone)</div>
+    </div>
+
+    <div class="detail-row">
+        <div class="detail-label">@Html.DisplayNameFor(model => model.NguyenVuongAnhActive)</div>
+        <div class="detail-value">@Html.DisplayFor(model => model.NguyenVuongAnhActive)</div>
+    </div>
+</div>
+
+<div style="margin-top: 15px;">
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn-edit-action">Edit</a>
+    <a asp-action="Index" class="btn-back">Back to List</a>
+</div>
