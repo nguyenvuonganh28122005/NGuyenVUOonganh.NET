@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37614.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nva_Lesson9", "Nva_Lesson9.csproj", "{AD5CF3A7-1B89-4BCE-80AE-4E311E3CD668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD5CF3A7-1B89-4BCE-80AE-4E311E3CD668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5CF3A7-1B89-4BCE-80AE-4E311E3CD668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5CF3A7-1B89-4BCE-80AE-4E311E3CD668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5CF3A7-1B89-4BCE-80AE-4E311E3CD668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72D6F295-5ADE-4303-A532-8BBF214C1658}
+	EndGlobalSection
+EndGlobal

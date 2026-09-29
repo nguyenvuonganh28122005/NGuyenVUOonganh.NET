@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Nva_Lesson9/1.0.0": {
+        "runtime": {
+          "Nva_Lesson9.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nva_Lesson9/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
