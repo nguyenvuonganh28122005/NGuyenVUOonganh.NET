@@ -1,0 +1,74 @@
+@{
+    ViewData["Title"] = "Quản Lý Đơn Hàng";
+}
+
+<div class="card shadow-sm border-0 mb-4">
+    <div class="card-header bg-white border-bottom py-3 d-flex justify-content-between align-items-center">
+        <h5 class="card-title fw-bold m-0 fs-6 text-dark">
+            <i class="bi bi-receipt me-2 text-primary"></i>Tất cả đơn hàng hệ thống
+        </h5>
+        <div class="card-tools">
+            <button class="btn btn-sm btn-primary">
+                <i class="bi bi-plus-lg me-1"></i>Tạo đơn hàng mới
+            </button>
+        </div>
+    </div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th class="ps-3 text-secondary fs-7"># Mã đơn</th>
+                        <th class="text-secondary fs-7">Khách hàng</th>
+                        <th class="text-secondary fs-7">Sản phẩm</th>
+                        <th class="text-secondary fs-7">Ngày đặt</th>
+                        <th class="text-secondary fs-7">Trạng thái</th>
+                        <th class="text-end pe-3 text-secondary fs-7">Tổng thanh toán</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="ps-3 fw-semibold text-primary">OR0001</td>
+                        <td class="fw-medium">Nguyễn Văn A</td>
+                        <td>Laptop Dell XPS 15</td>
+                        <td>04/10/2026</td>
+                        <td><span class="badge text-bg-success px-2 py-1">Hoàn thành</span></td>
+                        <td class="text-end pe-3 fw-bold text-dark">25.000.000đ</td>
+                    </tr>
+                    <tr>
+                        <td class="ps-3 fw-semibold text-primary">OR0002</td>
+                        <td class="fw-medium">Trần Thị B</td>
+                        <td>iPhone 15 Pro Max</td>
+                        <td>03/10/2026</td>
+                        <td><span class="badge text-bg-warning text-dark px-2 py-1">Đang xử lý</span></td>
+                        <td class="text-end pe-3 fw-bold text-dark">32.000.000đ</td>
+                    </tr>
+                    <tr>
+                        <td class="ps-3 fw-semibold text-primary">OR0003</td>
+                        <td class="fw-medium">Lê Văn C</td>
+                        <td>Samsung Galaxy S23 Ultra</td>
+                        <td>03/10/2026</td>
+                        <td><span class="badge text-bg-info text-white px-2 py-1">Đang giao hàng</span></td>
+                        <td class="text-end pe-3 fw-bold text-dark">18.500.000đ</td>
+                    </tr>
+                    <tr>
+                        <td class="ps-3 fw-semibold text-primary">OR0004</td>
+                        <td class="fw-medium">Phạm Thị D</td>
+                        <td>MacBook Pro 14" M3 Pro</td>
+                        <td>02/10/2026</td>
+                        <td><span class="badge text-bg-danger px-2 py-1">Hủy đơn</span></td>
+                        <td class="text-end pe-3 fw-bold text-dark">45.000.000đ</td>
+                    </tr>
+                    <tr>
+                        <td class="ps-3 fw-semibold text-primary">OR0005</td>
+                        <td class="fw-medium">Hoàng Văn E</td>
+                        <td>iPad Pro 11" M2</td>
+                        <td>01/10/2026</td>
+                        <td><span class="badge text-bg-success px-2 py-1">Hoàn thành</span></td>
+                        <td class="text-end pe-3 fw-bold text-dark">22.000.000đ</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

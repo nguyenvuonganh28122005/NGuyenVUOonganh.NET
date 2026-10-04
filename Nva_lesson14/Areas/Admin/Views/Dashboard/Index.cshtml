@@ -15,7 +15,7 @@
             <div class="small-box-icon">
                 <i class="bi bi-people-fill"></i>
             </div>
-            <a href="#" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover text-center py-2 d-block">
+            <a asp-area="Admin" asp-controller="Customers" asp-action="Index" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover text-center py-2 d-block">
                 Xem chi tiết <i class="bi bi-arrow-right-circle ms-1"></i>
             </a>
         </div>
@@ -31,7 +31,7 @@
             <div class="small-box-icon">
                 <i class="bi bi-cart-fill"></i>
             </div>
-            <a href="#" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover text-center py-2 d-block">
+            <a asp-area="Admin" asp-controller="Orders" asp-action="Index" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover text-center py-2 d-block">
                 Xem chi tiết <i class="bi bi-arrow-right-circle ms-1"></i>
             </a>
         </div>
@@ -47,7 +47,7 @@
             <div class="small-box-icon">
                 <i class="bi bi-currency-dollar"></i>
             </div>
-            <a href="#" class="small-box-footer link-dark link-underline-opacity-0 link-underline-opacity-50-hover text-center py-2 d-block">
+            <a asp-area="Admin" asp-controller="Products" asp-action="Index" class="small-box-footer link-dark link-underline-opacity-0 link-underline-opacity-50-hover text-center py-2 d-block">
                 Xem chi tiết <i class="bi bi-arrow-right-circle ms-1"></i>
             </a>
         </div>
@@ -187,8 +187,8 @@
                 </div>
             </div>
             <div class="card-footer bg-white border-top text-end py-2">
-                <a href="#" class="btn btn-sm btn-outline-primary fw-medium">
-                    <i class="bi bi-plus-lg me-1"></i>Thêm đơn hàng
+                <a asp-area="Admin" asp-controller="Orders" asp-action="Index" class="btn btn-sm btn-outline-primary fw-medium">
+                    <i class="bi bi-plus-lg me-1"></i>Xem tất cả & thêm đơn
                 </a>
             </div>
         </div>
@@ -204,22 +204,22 @@
                 </h5>
             </div>
             <div class="card-body d-grid gap-2 p-3">
-                <button class="btn btn-primary text-start d-flex align-items-center justify-content-between py-2">
+                <a asp-area="Admin" asp-controller="Products" asp-action="Create" class="btn btn-primary text-start d-flex align-items-center justify-content-between py-2 text-decoration-none">
                     <span><i class="bi bi-plus-circle me-2"></i>Thêm sản phẩm</span>
                     <i class="bi bi-chevron-right fs-7 opacity-75"></i>
-                </button>
-                <button class="btn btn-success text-start d-flex align-items-center justify-content-between py-2">
+                </a>
+                <a asp-area="Admin" asp-controller="Customers" asp-action="Index" class="btn btn-success text-start d-flex align-items-center justify-content-between py-2 text-decoration-none">
                     <span><i class="bi bi-person-plus me-2"></i>Thêm người dùng</span>
                     <i class="bi bi-chevron-right fs-7 opacity-75"></i>
-                </button>
-                <button class="btn btn-info text-white text-start d-flex align-items-center justify-content-between py-2">
-                    <span><i class="bi bi-file-earmark-bar-graph me-2"></i>Xem báo cáo</span>
+                </a>
+                <a asp-area="Admin" asp-controller="Orders" asp-action="Index" class="btn btn-info text-white text-start d-flex align-items-center justify-content-between py-2 text-decoration-none">
+                    <span><i class="bi bi-file-earmark-bar-graph me-2"></i>Xem báo cáo đơn hàng</span>
                     <i class="bi bi-chevron-right fs-7 opacity-75"></i>
-                </button>
-                <button class="btn btn-warning text-dark text-start d-flex align-items-center justify-content-between py-2">
-                    <span><i class="bi bi-gear me-2"></i>Cài đặt hệ thống</span>
+                </a>
+                <a asp-area="Admin" asp-controller="Products" asp-action="Index" class="btn btn-warning text-dark text-start d-flex align-items-center justify-content-between py-2 text-decoration-none">
+                    <span><i class="bi bi-box-seam me-2"></i>Kho hàng hóa</span>
                     <i class="bi bi-chevron-right fs-7 opacity-75"></i>
-                </button>
+                </a>
             </div>
         </div>
 

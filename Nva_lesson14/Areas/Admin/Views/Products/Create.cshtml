@@ -1,0 +1,64 @@
+@{
+    ViewData["Title"] = "Thêm Mới Sản Phẩm";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-white border-bottom py-3 d-flex justify-content-between align-items-center">
+                <h5 class="card-title fw-bold m-0 fs-6 text-dark">
+                    <i class="bi bi-plus-circle me-2 text-primary"></i>Nhập thông tin sản phẩm mới
+                </h5>
+                <a asp-area="Admin" asp-controller="Products" asp-action="Index" class="btn btn-sm btn-outline-secondary">
+                    <i class="bi bi-arrow-left me-1"></i>Quay lại danh sách
+                </a>
+            </div>
+            <div class="card-body p-4">
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Mã sản phẩm <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="Ví dụ: SP006" value="SP006" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Danh mục <span class="text-danger">*</span></label>
+                            <select class="form-select" required>
+                                <option value="">-- Chọn danh mục --</option>
+                                <option value="Laptop" selected>Laptop</option>
+                                <option value="Phone">Điện thoại</option>
+                                <option value="Tablet">Máy tính bảng</option>
+                                <option value="Accessories">Phụ kiện công nghệ</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Tên sản phẩm <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" placeholder="Nhập tên sản phẩm đầy đủ" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Đơn giá (VNĐ) <span class="text-danger">*</span></label>
+                            <div class="input-group">
+                                <input type="number" class="form-control" placeholder="0" min="0" required>
+                                <span class="input-group-text">VNĐ</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Số lượng trong kho <span class="text-danger">*</span></label>
+                            <input type="number" class="form-control" placeholder="0" min="0" required>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Mô tả sản phẩm</label>
+                            <textarea class="form-control" rows="3" placeholder="Nhập tóm tắt thông số kỹ thuật..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-3 border-top d-flex justify-content-end gap-2">
+                        <a asp-area="Admin" asp-controller="Products" asp-action="Index" class="btn btn-secondary">Hủy bỏ</a>
+                        <button type="button" class="btn btn-primary px-4" onclick="alert('Đã lưu thông tin sản phẩm thành công!')">
+                            <i class="bi bi-save me-1"></i>Lưu sản phẩm
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
