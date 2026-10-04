@@ -1,0 +1,51 @@
+﻿/* Đặt font chữ chung và nền cho trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Định dạng chung cho container */
+.container {
+    max-width: 1000px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+/* Thanh menu tối màu */
+nav.container {
+    background-color: #2c2c3e !important;
+    padding: 15px 20px;
+}
+
+    nav.container div {
+        display: flex;
+        gap: 25px;
+    }
+
+    /* Chữ hiển thị trong menu */
+    nav.container a {
+        color: #ffffff !important;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+        nav.container a:hover {
+            color: #cccccc !important;
+        }
+
+/* Phần nội dung chính nằm ở giữa */
+div.container {
+    background-color: #ffffff;
+    padding: 20px;
+    min-height: 400px;
+}
+
+/* Phần footer ở dưới */
+footer.container {
+    background-color: #ffffff;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
