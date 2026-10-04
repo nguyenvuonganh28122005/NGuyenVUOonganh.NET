@@ -1,0 +1,56 @@
+@{
+    ViewData["Title"] = "Trang Chủ - Nva_lesson14";
+}
+
+<div class="container py-5">
+    <div class="p-5 mb-4 bg-light rounded-3 shadow-sm text-center">
+        <h1 class="display-5 fw-bold text-primary mb-3">Dự Án Nva_lesson14</h1>
+        <p class="lead text-secondary mb-4">
+            Ứng dụng ASP.NET Core MVC trên nền tảng .NET 8.0 — Tích hợp Layout AdminLTE v4 cho Khu vực Quản trị (Admin Area).
+        </p>
+        <div class="d-flex justify-content-center gap-3">
+            <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="btn btn-primary btn-lg px-4 shadow">
+                <i class="bi bi-speedometer2 me-2"></i>Truy Cập Trang Quản Trị (Admin Dashboard)
+            </a>
+            <a asp-action="Privacy" class="btn btn-outline-secondary btn-lg px-4">
+                Chính sách bảo mật
+            </a>
+        </div>
+    </div>
+
+    <div class="row g-4 py-3">
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card-body text-center">
+                    <div class="fs-1 text-primary mb-3"><i class="bi bi-layout-text-window-reverse"></i></div>
+                    <h5 class="card-title fw-bold">AdminLTE v4 Template</h5>
+                    <p class="card-text text-muted">
+                        Tích hợp giao diện quản trị AdminLTE phiên bản mới nhất với đầy đủ các widget thống kê và menu điều hướng.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card-body text-center">
+                    <div class="fs-1 text-success mb-3"><i class="bi bi-diagram-3-fill"></i></div>
+                    <h5 class="card-title fw-bold">Cấu Trúc Area Chuẩn</h5>
+                    <p class="card-text text-muted">
+                        Phân tách khu vực Admin độc lập với Controller, Views, ViewImports và ViewStart riêng biệt.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm p-3">
+                <div class="card-body text-center">
+                    <div class="fs-1 text-warning mb-3"><i class="bi bi-shield-check"></i></div>
+                    <h5 class="card-title fw-bold">Nguyễn Vương Anh (NVA)</h5>
+                    <p class="card-text text-muted">
+                        Mã nguồn được cấu hình đầy đủ theo thông tin sinh viên Nguyễn Vương Anh, sẵn sàng đưa vào sử dụng.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

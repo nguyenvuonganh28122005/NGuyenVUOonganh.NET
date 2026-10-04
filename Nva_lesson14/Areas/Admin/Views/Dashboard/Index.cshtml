@@ -1,0 +1,264 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<!--begin::Row 1: 4 Small Box Widgets-->
+<div class="row g-3 mb-3">
+    <!-- Box 1: Người dùng -->
+    <div class="col-lg-3 col-6">
+        <div class="small-box text-bg-primary shadow-sm rounded-3">
+            <div class="inner p-3">
+                <span class="badge-tag-custom float-end">+12% tuần này</span>
+                <h3 class="fw-bold">1,250</h3>
+                <p class="mb-0">Người dùng</p>
+            </div>
+            <div class="small-box-icon">
+                <i class="bi bi-people-fill"></i>
+            </div>
+            <a href="#" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover text-center py-2 d-block">
+                Xem chi tiết <i class="bi bi-arrow-right-circle ms-1"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Box 2: Đơn hàng mới -->
+    <div class="col-lg-3 col-6">
+        <div class="small-box text-bg-success shadow-sm rounded-3">
+            <div class="inner p-3">
+                <h3 class="fw-bold">320</h3>
+                <p class="mb-0">Đơn hàng mới</p>
+            </div>
+            <div class="small-box-icon">
+                <i class="bi bi-cart-fill"></i>
+            </div>
+            <a href="#" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover text-center py-2 d-block">
+                Xem chi tiết <i class="bi bi-arrow-right-circle ms-1"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Box 3: Doanh thu -->
+    <div class="col-lg-3 col-6">
+        <div class="small-box text-bg-warning shadow-sm rounded-3">
+            <div class="inner p-3">
+                <h3 class="fw-bold text-dark">45.2M</h3>
+                <p class="mb-0 text-dark">Doanh thu (VNĐ)</p>
+            </div>
+            <div class="small-box-icon">
+                <i class="bi bi-currency-dollar"></i>
+            </div>
+            <a href="#" class="small-box-footer link-dark link-underline-opacity-0 link-underline-opacity-50-hover text-center py-2 d-block">
+                Xem chi tiết <i class="bi bi-arrow-right-circle ms-1"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Box 4: Báo cáo vi phạm -->
+    <div class="col-lg-3 col-6">
+        <div class="small-box text-bg-danger shadow-sm rounded-3">
+            <div class="inner p-3">
+                <h3 class="fw-bold">65</h3>
+                <p class="mb-0">Báo cáo vi phạm</p>
+            </div>
+            <div class="small-box-icon">
+                <i class="bi bi-flag-fill"></i>
+            </div>
+            <a href="#" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover text-center py-2 d-block">
+                Xem chi tiết <i class="bi bi-arrow-right-circle ms-1"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<!--end::Row 1-->
+
+<!--begin::Row 2: Info Boxes-->
+<div class="row g-3 mb-3">
+    <!-- Info Box 1 -->
+    <div class="col-lg-4 col-sm-6">
+        <div class="info-box shadow-sm bg-body rounded-3 p-3 d-flex align-items-center border">
+            <span class="info-box-icon bg-info text-white rounded-3 p-3 me-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                <i class="bi bi-envelope-fill fs-4"></i>
+            </span>
+            <div class="info-box-content flex-grow-1">
+                <span class="info-box-text text-secondary d-block fs-7">Tin nhắn mới</span>
+                <span class="info-box-number fw-bold fs-5 text-dark">1,410</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Box 2 -->
+    <div class="col-lg-4 col-sm-6">
+        <div class="info-box shadow-sm bg-body rounded-3 p-3 d-flex align-items-center border">
+            <span class="info-box-icon bg-success text-white rounded-3 p-3 me-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                <i class="bi bi-check2-circle fs-4"></i>
+            </span>
+            <div class="info-box-content flex-grow-1">
+                <span class="info-box-text text-secondary d-block fs-7">Đơn hoàn thành</span>
+                <span class="info-box-number fw-bold fs-5 text-dark">780</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Box 3 -->
+    <div class="col-lg-4 col-12">
+        <div class="info-box shadow-sm bg-body rounded-3 p-3 d-flex align-items-center border">
+            <span class="info-box-icon bg-warning text-dark rounded-3 p-3 me-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                <i class="bi bi-clock-history fs-4"></i>
+            </span>
+            <div class="info-box-content flex-grow-1">
+                <span class="info-box-text text-secondary d-block fs-7">Đang xử lý</span>
+                <span class="info-box-number fw-bold fs-5 text-dark">1,200</span>
+                <div class="progress mt-1" style="height: 4px;">
+                    <div class="progress-bar bg-warning" style="width: 70%"></div>
+                </div>
+                <small class="text-muted fs-8">70% hoàn thành</small>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end::Row 2-->
+
+<!--begin::Row 3: Table & Side Actions-->
+<div class="row g-3">
+    <!-- Cột trái: Bảng đơn hàng gần đây -->
+    <div class="col-lg-8">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-white border-bottom py-3 d-flex justify-content-between align-items-center">
+                <h5 class="card-title fw-bold m-0 fs-6 text-dark">
+                    <i class="bi bi-table me-2 text-primary"></i>Đơn hàng gần đây
+                </h5>
+                <div class="card-tools">
+                    <button type="button" class="btn btn-tool text-secondary" data-lte-toggle="card-collapse">
+                        <i data-lte-icon="expand" class="bi bi-plus-lg"></i>
+                        <i data-lte-icon="collapse" class="bi bi-dash-lg"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="ps-3 text-secondary fs-7">#</th>
+                                <th class="text-secondary fs-7">Khách hàng</th>
+                                <th class="text-secondary fs-7">Sản phẩm</th>
+                                <th class="text-secondary fs-7">Trạng thái</th>
+                                <th class="text-end pe-3 text-secondary fs-7">Tổng tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="ps-3 fw-semibold text-primary">0001</td>
+                                <td class="fw-medium">Nguyễn Văn A</td>
+                                <td>Laptop Dell XPS</td>
+                                <td><span class="badge text-bg-success px-2 py-1">Hoàn thành</span></td>
+                                <td class="text-end pe-3 fw-bold text-dark">25.000.000đ</td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 fw-semibold text-primary">0002</td>
+                                <td class="fw-medium">Trần Thị B</td>
+                                <td>iPhone 15 Pro</td>
+                                <td><span class="badge text-bg-warning text-dark px-2 py-1">Đang xử lý</span></td>
+                                <td class="text-end pe-3 fw-bold text-dark">32.000.000đ</td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 fw-semibold text-primary">0003</td>
+                                <td class="fw-medium">Lê Văn C</td>
+                                <td>Samsung Galaxy S23</td>
+                                <td><span class="badge text-bg-info text-white px-2 py-1">Đang giao</span></td>
+                                <td class="text-end pe-3 fw-bold text-dark">18.500.000đ</td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 fw-semibold text-primary">0004</td>
+                                <td class="fw-medium">Phạm Thị D</td>
+                                <td>MacBook Pro M3</td>
+                                <td><span class="badge text-bg-danger px-2 py-1">Hủy đơn</span></td>
+                                <td class="text-end pe-3 fw-bold text-dark">45.000.000đ</td>
+                            </tr>
+                            <tr>
+                                <td class="ps-3 fw-semibold text-primary">0005</td>
+                                <td class="fw-medium">Hoàng Văn E</td>
+                                <td>iPad Pro 11"</td>
+                                <td><span class="badge text-bg-success px-2 py-1">Hoàn thành</span></td>
+                                <td class="text-end pe-3 fw-bold text-dark">22.000.000đ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="card-footer bg-white border-top text-end py-2">
+                <a href="#" class="btn btn-sm btn-outline-primary fw-medium">
+                    <i class="bi bi-plus-lg me-1"></i>Thêm đơn hàng
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cột phải: Thao tác nhanh & Thành viên mới -->
+    <div class="col-lg-4">
+        <!-- Card 1: Thao tác nhanh -->
+        <div class="card shadow-sm border-0 mb-3">
+            <div class="card-header bg-white border-bottom py-3">
+                <h5 class="card-title fw-bold m-0 fs-6 text-dark">
+                    <i class="bi bi-lightning-charge-fill me-2 text-warning"></i>Thao tác nhanh
+                </h5>
+            </div>
+            <div class="card-body d-grid gap-2 p-3">
+                <button class="btn btn-primary text-start d-flex align-items-center justify-content-between py-2">
+                    <span><i class="bi bi-plus-circle me-2"></i>Thêm sản phẩm</span>
+                    <i class="bi bi-chevron-right fs-7 opacity-75"></i>
+                </button>
+                <button class="btn btn-success text-start d-flex align-items-center justify-content-between py-2">
+                    <span><i class="bi bi-person-plus me-2"></i>Thêm người dùng</span>
+                    <i class="bi bi-chevron-right fs-7 opacity-75"></i>
+                </button>
+                <button class="btn btn-info text-white text-start d-flex align-items-center justify-content-between py-2">
+                    <span><i class="bi bi-file-earmark-bar-graph me-2"></i>Xem báo cáo</span>
+                    <i class="bi bi-chevron-right fs-7 opacity-75"></i>
+                </button>
+                <button class="btn btn-warning text-dark text-start d-flex align-items-center justify-content-between py-2">
+                    <span><i class="bi bi-gear me-2"></i>Cài đặt hệ thống</span>
+                    <i class="bi bi-chevron-right fs-7 opacity-75"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Card 2: Thành viên mới -->
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-white border-bottom py-3">
+                <h5 class="card-title fw-bold m-0 fs-6 text-dark">
+                    <i class="bi bi-people me-2 text-primary"></i>Thành viên mới
+                </h5>
+            </div>
+            <div class="card-body p-0">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex align-items-center py-2 px-3 border-0 border-bottom">
+                        <img src="~/admin-lte-v4.10.0/dist/assets/img/user1-128x128.jpg" alt="Avatar" class="rounded-circle me-3" style="width: 38px; height: 38px; object-fit: cover;">
+                        <div class="flex-grow-1">
+                            <h6 class="mb-0 fw-semibold fs-7">Nguyễn Văn A</h6>
+                            <small class="text-muted fs-8">Khách hàng</small>
+                        </div>
+                        <span class="badge bg-light text-secondary border">Mới</span>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center py-2 px-3 border-0 border-bottom">
+                        <img src="~/admin-lte-v4.10.0/dist/assets/img/user3-128x128.jpg" alt="Avatar" class="rounded-circle me-3" style="width: 38px; height: 38px; object-fit: cover;">
+                        <div class="flex-grow-1">
+                            <h6 class="mb-0 fw-semibold fs-7">Trần Thị B</h6>
+                            <small class="text-muted fs-8">Khách hàng</small>
+                        </div>
+                        <span class="badge bg-light text-secondary border">Mới</span>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center py-2 px-3 border-0">
+                        <img src="~/admin-lte-v4.10.0/dist/assets/img/user8-128x128.jpg" alt="Avatar" class="rounded-circle me-3" style="width: 38px; height: 38px; object-fit: cover;">
+                        <div class="flex-grow-1">
+                            <h6 class="mb-0 fw-semibold fs-7">Lê Văn C</h6>
+                            <small class="text-muted fs-8">Khách hàng</small>
+                        </div>
+                        <span class="badge bg-light text-secondary border">Mới</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end::Row 3-->

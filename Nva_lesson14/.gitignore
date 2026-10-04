@@ -1,0 +1,11 @@
+## Visual Studio cache / build results
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## AdminLTE zip archive (keep the extracted folder in wwwroot/admin-lte-v4.10.0)
+wwwroot/admin-lte-v4.10.0.zip
