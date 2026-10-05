@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Nva_lesson8.Models.NvaMember>
+
+@{
+    ViewData["Title"] = "Danh sách thành viên";
+}
+
+<div class="card p-3">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h1 class="h3 mb-0">@ViewData["Title"]</h1>
+        <a asp-action="Create" class="btn btn-primary">Thêm mới</a>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered table-striped align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NvaMemberId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NvaUserName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NvaPassword)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NvaFullName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NvaEmail)
+                    </th>
+                    <th class="text-center">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NvaMemberId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NvaUserName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NvaPassword)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NvaFullName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NvaEmail)
+                        </td>
+                        <td class="text-center">
+                            <a asp-action="Edit" asp-route-id="@item.NvaMemberId" class="btn btn-sm btn-warning">Sửa</a> |
+                            <a asp-action="Details" asp-route-id="@item.NvaMemberId" class="btn btn-sm btn-info text-white">Xem</a> |
+                            <a asp-action="Delete" asp-route-id="@item.NvaMemberId" class="btn btn-sm btn-danger">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

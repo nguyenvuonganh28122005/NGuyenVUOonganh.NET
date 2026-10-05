@@ -1,0 +1,53 @@
+﻿@model Nva_lesson8.Models.NvaMember
+
+@{
+    ViewData["Title"] = "Chi tiết thành viên";
+}
+
+<div class="card p-3">
+    <div class="card-header">
+        <h1 class="h3 mb-0">@ViewData["Title"]</h1>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.NvaMemberId)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.NvaMemberId)
+            </dd>
+
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.NvaUserName)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.NvaUserName)
+            </dd>
+
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.NvaPassword)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.NvaPassword)
+            </dd>
+
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.NvaFullName)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.NvaFullName)
+            </dd>
+
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.NvaEmail)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.NvaEmail)
+            </dd>
+        </dl>
+    </div>
+    <div class="card-footer text-end">
+        <a asp-action="Edit" asp-route-id="@Model?.NvaMemberId" class="btn btn-warning">Chỉnh sửa</a>
+        <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+    </div>
+</div>

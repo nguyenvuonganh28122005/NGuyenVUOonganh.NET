@@ -1,0 +1,50 @@
+﻿@model Nva_lesson8.Models.NvaMember
+
+@{
+    ViewData["Title"] = "Xác nhận xóa thành viên";
+}
+
+<div class="card p-3 border-danger">
+    <div class="card-header bg-danger text-white">
+        <h1 class="h3 mb-0">@ViewData["Title"]</h1>
+    </div>
+    <div class="card-body">
+        <p class="text-danger fw-bold">Bạn có chắc chắn muốn xóa thành viên này không?</p>
+        <dl class="row">
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.NvaMemberId)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.NvaMemberId)
+            </dd>
+
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.NvaUserName)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.NvaUserName)
+            </dd>
+
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.NvaFullName)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.NvaFullName)
+            </dd>
+
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.NvaEmail)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.NvaEmail)
+            </dd>
+        </dl>
+    </div>
+    <div class="card-footer text-end">
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="NvaMemberId" />
+            <button type="submit" class="btn btn-danger">Xác nhận xóa</button>
+            <a asp-action="Index" class="btn btn-secondary">Hủy bỏ</a>
+        </form>
+    </div>
+</div>
