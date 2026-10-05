@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Nva_lesson2.Models.NvaProduct>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+<h2>Danh sách sản phẩm</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Mã SP</th>
+            <th>Tên sản phẩm</th>
+            <th>Năm sản xuất</th>
+            <th>Giá bán (VNĐ)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td>@item.ProductName</td>
+                <td>@item.YearRelease</td>
+                <td>@item.Price.ToString("N0")</td>
+            </tr>
+        }
+    </tbody>
+</table>

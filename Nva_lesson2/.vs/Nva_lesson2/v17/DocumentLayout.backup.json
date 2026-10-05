@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24499E52-CAC0-469B-A78B-32342CBADDA7}|Nva_lesson2.csproj|c:\\vuong\\nguyenvuoonganh.net\\nva_lesson2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24499E52-CAC0-469B-A78B-32342CBADDA7}|Nva_lesson2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24499E52-CAC0-469B-A78B-32342CBADDA7}|Nva_lesson2.csproj|c:\\vuong\\nguyenvuoonganh.net\\nva_lesson2\\views\\nvaproduct\\getproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24499E52-CAC0-469B-A78B-32342CBADDA7}|Nva_lesson2.csproj|solutionrelative:views\\nvaproduct\\getproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24499E52-CAC0-469B-A78B-32342CBADDA7}|Nva_lesson2.csproj|c:\\vuong\\nguyenvuoonganh.net\\nva_lesson2\\controllers\\nvaproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24499E52-CAC0-469B-A78B-32342CBADDA7}|Nva_lesson2.csproj|solutionrelative:controllers\\nvaproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24499E52-CAC0-469B-A78B-32342CBADDA7}|Nva_lesson2.csproj|c:\\vuong\\nguyenvuoonganh.net\\nva_lesson2\\models\\nvaproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24499E52-CAC0-469B-A78B-32342CBADDA7}|Nva_lesson2.csproj|solutionrelative:models\\nvaproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24499E52-CAC0-469B-A78B-32342CBADDA7}|Nva_lesson2.csproj|c:\\vuong\\nguyenvuoonganh.net\\nva_lesson2\\views\\nvaproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24499E52-CAC0-469B-A78B-32342CBADDA7}|Nva_lesson2.csproj|solutionrelative:views\\nvaproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 318,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +43,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetProducts.cshtml",
+              "DocumentMoniker": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson2\\Views\\NvaProduct\\GetProducts.cshtml",
+              "RelativeDocumentMoniker": "Views\\NvaProduct\\GetProducts.cshtml",
+              "ToolTip": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson2\\Views\\NvaProduct\\GetProducts.cshtml",
+              "RelativeToolTip": "Views\\NvaProduct\\GetProducts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-05T03:05:50.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NvaProduct.cs",
+              "DocumentMoniker": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson2\\Models\\NvaProduct.cs",
+              "RelativeDocumentMoniker": "Models\\NvaProduct.cs",
+              "ToolTip": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson2\\Models\\NvaProduct.cs",
+              "RelativeToolTip": "Models\\NvaProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T03:02:29.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-05T02:59:08.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson2\\Views\\NvaProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\NvaProduct\\Index.cshtml",
+              "ToolTip": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson2\\Views\\NvaProduct\\Index.cshtml",
+              "RelativeToolTip": "Views\\NvaProduct\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-05T02:56:21.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NvaProductController.cs",
+              "DocumentMoniker": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson2\\Controllers\\NvaProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NvaProductController.cs",
+              "ToolTip": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson2\\Controllers\\NvaProductController.cs",
+              "RelativeToolTip": "Controllers\\NvaProductController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T02:55:05.416Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nva_lesson2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5dc6e6274c911f6147b0aa8decf201b776f906d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc7298bd2749660f721e2711549804705e80c7bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nva_lesson2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nva_lesson2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
