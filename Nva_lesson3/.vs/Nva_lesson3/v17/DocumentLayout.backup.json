@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1984B-E9D4-41B9-BA2A-AEB9D261F9D3}|Nva_lesson3.csproj|c:\\vuong\\nguyenvuoonganh.net\\nva_lesson3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E1984B-E9D4-41B9-BA2A-AEB9D261F9D3}|Nva_lesson3.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1984B-E9D4-41B9-BA2A-AEB9D261F9D3}|Nva_lesson3.csproj|c:\\vuong\\nguyenvuoonganh.net\\nva_lesson3\\views\\nvaproduct\\getallproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74E1984B-E9D4-41B9-BA2A-AEB9D261F9D3}|Nva_lesson3.csproj|solutionrelative:views\\nvaproduct\\getallproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1984B-E9D4-41B9-BA2A-AEB9D261F9D3}|Nva_lesson3.csproj|c:\\vuong\\nguyenvuoonganh.net\\nva_lesson3\\controllers\\nvaproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E1984B-E9D4-41B9-BA2A-AEB9D261F9D3}|Nva_lesson3.csproj|solutionrelative:controllers\\nvaproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74E1984B-E9D4-41B9-BA2A-AEB9D261F9D3}|Nva_lesson3.csproj|c:\\vuong\\nguyenvuoonganh.net\\nva_lesson3\\models\\nvaproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74E1984B-E9D4-41B9-BA2A-AEB9D261F9D3}|Nva_lesson3.csproj|solutionrelative:models\\nvaproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 318,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +39,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-05T03:38:59.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllProduct.cshtml",
+              "DocumentMoniker": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson3\\Views\\NvaProduct\\GetAllProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\NvaProduct\\GetAllProduct.cshtml",
+              "ToolTip": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson3\\Views\\NvaProduct\\GetAllProduct.cshtml",
+              "RelativeToolTip": "Views\\NvaProduct\\GetAllProduct.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-05T03:37:10.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NvaProductController.cs",
+              "DocumentMoniker": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson3\\Controllers\\NvaProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NvaProductController.cs",
+              "ToolTip": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson3\\Controllers\\NvaProductController.cs",
+              "RelativeToolTip": "Controllers\\NvaProductController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwCMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T03:33:39.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NvaProduct.cs",
+              "DocumentMoniker": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson3\\Models\\NvaProduct.cs",
+              "RelativeDocumentMoniker": "Models\\NvaProduct.cs",
+              "ToolTip": "C:\\vuong\\NGuyenVUOonganh.NET\\Nva_lesson3\\Models\\NvaProduct.cs",
+              "RelativeToolTip": "Models\\NvaProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T03:33:04.043Z",
+              "EditorCaption": ""
             }
           ]
         },

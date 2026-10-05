@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+
+    var products = ViewData["products"] as List<Nva_lesson3.Models.NvaProduct>;
+}
+
+<div class="card">
+    <div class="card-header">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Year</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (products != null && products.Any())
+                {
+                    int stt = 1;
+                    foreach (var item in products)
+                    {
+                        <tr>
+                            <td>@(stt++)</td>
+                            <td>@item.NvaProductId</td>
+                            <td>@item.NvaProductName</td>
+                            <td>@item.NvaYearRelease</td>
+                            <td>@item.NvaPrice.ToString("N0")</td>
+                            <td>
+                                <a class="btn btn-sm btn-warning" href="#">Sửa</a>
+                                <a class="btn btn-sm btn-danger" href="#">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="6" class="text-center">Không có dữ liệu sản phẩm.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
